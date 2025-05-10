@@ -7,11 +7,11 @@ This repository contains a Python script for backtesting a proprietary trading s
 
 ## Results and Visualizations
 
-### The backtest yields the following performance metrics:
+ The backtest yields the following performance metrics:
 - Initial Capital: 10,000,000 INR
 - Final Equity: 51,819,389.39 INR
 - Percentage Return: 418.19%
-- Max Drawdown: 38.25% at [Timestamp]
+- Max Drawdown: 38.25%
 - Number of Trades: 102
 - Win Rate: 35.29%
 - Best Trade: 23,410,847.77 INR at 2024-11-17 08:00:00
