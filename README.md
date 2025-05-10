@@ -5,6 +5,37 @@ This repository contains a Python script for backtesting a proprietary trading s
 
 ### Note: The strategy and its implementation are protected by an "All Rights Reserved" license. Any use, replication, or adaptation of the strategy for any purpose is strictly prohibited.
 
+## Results and Visualizations
+
+### The backtest yields the following performance metrics:
+- Initial Capital: 10,000,000 INR
+- Final Equity: 51,819,389.39 INR
+- Percentage Return: 418.19%
+- Max Drawdown: 38.25% at [Timestamp]
+- Number of Trades: 102
+- Win Rate: 35.29%
+- Best Trade: 23,410,847.77 INR at 2024-11-17 08:00:00
+- Worst Trade: -6,038,769.27 INR at 2025-03-04 04:00:00
+- Highest Equity Return: 58,223,238.67 INR (582.23%) at 2025-03-02 20:00:00
+
+### Monthly Returns:
+
+- April 2024: 21.95%
+- May 2024: -6.55%
+- June 2024: 6.66%
+- July 2024: 5.07%
+- August 2024: 3.33%
+- September 2024: 23.74%
+- October 2024: 23.37%
+- November 2024: 109.20%
+- December 2024: -0.48%
+- January 2025: 19.89%
+- February 2025: 27.31%
+- March 2025: -12.99%
+- April 2025: -7.46%
+- May 2025: 6.45%
+
+
 ## Features
 - Data Processing: Loads and processes hourly DOGE/USD data, converting prices to INR.
 
@@ -12,9 +43,9 @@ This repository contains a Python script for backtesting a proprietary trading s
 
 - Performance Metrics: Calculates final equity, percentage return, max drawdown, win rate, best/worst trades, and highest equity return.
 
-- Visualizations:
+### Visualizations:
 
-#### - Equity curve vs. DOGE price
+- Equity curve vs. DOGE price
 
 - Drawdown over time
 
