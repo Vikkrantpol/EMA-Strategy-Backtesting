@@ -2,10 +2,10 @@
 
 ## Overview
 This repository contains a Python script for backtesting a proprietary trading strategy on DOGE/USD data, converted to INR. The script processes hourly OHLC data, executes trades based on a hidden trading logic, and generates comprehensive performance visualizations and metrics. The trading logic is proprietary and not disclosed in the script.
-
+Using 4h timeframe (16 months of historical data)
 ### Note: The strategy and its implementation are protected by an "All Rights Reserved" license. Any use, replication, or adaptation of the strategy for any purpose is strictly prohibited.
 
-## Results and Visualizations
+## Results
 
  The backtest yields the following performance metrics:
 - Initial Capital: 10,000,000 INR
@@ -35,6 +35,25 @@ This repository contains a Python script for backtesting a proprietary trading s
 - April 2025: -7.46%
 - May 2025: 6.45%
 
+## Plots and Visualizations
+
+The following plots illustrate the strategy's performance:
+
+### 1.Equity Curve vs. DOGE Price
+- Shows equity growth from 10M INR to over 51.8M INR, compared to DOGE price, with gains (green) and losses (red) highlighted.
+  
+
+### 2.Drawdown Over Time
+- Displays drawdown percentage, peaking at 38.25%, with significant drawdowns annotated.
+
+### 3.Price Chart with Indicators
+- Plots DOGE price with proprietary indicators (details hidden) on a logarithmic scale.
+
+### 4.Monthly Returns and Number of Trades
+- Combines monthly returns (bar plot with gradient colors, e.g., 109.20% in Nov 2024) and number of trades (line plot), with highest and lowest returns annotated.
+
+### 5.Summary Dashboard
+ -Aggregates equity curve, drawdown, and a metrics table for a comprehensive overview.
 
 ## Features
 - Data Processing: Loads and processes hourly DOGE/USD data, converting prices to INR.
