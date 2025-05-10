@@ -18,7 +18,7 @@ This repository contains a Python script for backtesting a proprietary trading s
 - Worst Trade: -6,038,769.27 INR at 2025-03-04 04:00:00
 - Highest Equity Return: 58,223,238.67 INR (582.23%) at 2025-03-02 20:00:00
 
-### Monthly Returns:
+ Monthly Returns:
 
 - April 2024: 21.95%
 - May 2024: -6.55%
