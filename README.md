@@ -41,19 +41,29 @@ The following plots illustrate the strategy's performance:
 
 ### 1.Equity Curve vs. DOGE Price
 - Shows equity growth from 10M INR to over 51.8M INR, compared to DOGE price, with gains (green) and losses (red) highlighted.
-  
+
+  ![equity_curve_4h](https://github.com/user-attachments/assets/f919f307-3656-42df-ba5b-682c23e97040)
+
 
 ### 2.Drawdown Over Time
 - Displays drawdown percentage, peaking at 38.25%, with significant drawdowns annotated.
 
+ ![drawdown_4h](https://github.com/user-attachments/assets/00b90d39-93d9-491c-9128-d1b642768045)
+
 ### 3.Price Chart with Indicators
 - Plots DOGE price with proprietary indicators (details hidden) on a logarithmic scale.
+
+ ![price_signals_4h](https://github.com/user-attachments/assets/6673208e-9b0d-4d71-9810-9ab95813e435)
 
 ### 4.Monthly Returns and Number of Trades
 - Combines monthly returns (bar plot with gradient colors, e.g., 109.20% in Nov 2024) and number of trades (line plot), with highest and lowest returns annotated.
 
+![monthly_returns_trades](https://github.com/user-attachments/assets/3e0bf90f-3d18-440c-88e0-075983ad4a15)
+
 ### 5.Summary Dashboard
  -Aggregates equity curve, drawdown, and a metrics table for a comprehensive overview.
+
+![DOGE_summary_dashboard_4h](https://github.com/user-attachments/assets/89d04795-7542-46ca-a59c-02062c38609d)
 
 ## Features
 - Data Processing: Loads and processes hourly DOGE/USD data, converting prices to INR.
