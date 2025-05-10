@@ -84,7 +84,7 @@ The following plots illustrate the strategy's performance:
 
 - Summary dashboard
 
-### Output: Saves trade details to trades_1h.csv and visualizations as high-resolution PNG files.
+### Output: Saves trade details to trades_4h.csv and visualizations as high-resolution PNG files.
 
 ## License
 
